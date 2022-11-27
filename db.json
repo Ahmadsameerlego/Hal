@@ -1,0 +1,839 @@
+{
+  
+  "accounts_links":{
+    "code": 200,
+    "status": true,
+    "message": "تم عرض البيانات بنجاح",
+    "body": {
+      "account_link": [
+        {
+        "id": 1,
+        "link_name": "provider",
+        "is_multiple": 0,
+        "titles": {
+        "ar": "خاص الموردين",
+        "en": "Providers"
+        },
+        "description": {
+        "ar": "خاص الموردين",
+        "en": "Providers"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 1,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص الموردين"
+        },
+        {
+        "id": 2,
+        "link_name": "customer",
+        "is_multiple": 0,
+        "titles": {
+        "ar": "خاص العملاء",
+        "en": "customer"
+        },
+        "description": {
+        "ar": "خاص العملاء",
+        "en": "customer"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 2,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص العملاء"
+        },
+        {
+        "id": 11,
+        "link_name": "asset",
+        "is_multiple": 1,
+        "titles": {
+        "ar": "خاص الاصول",
+        "en": "Asset Link"
+        },
+        "description": {
+        "ar": "خاص الاصول",
+        "en": "Asset Link"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص الاصول"
+        },
+        {
+        "id": 12,
+        "link_name": "bank",
+        "is_multiple": 1,
+        "titles": {
+        "ar": "خاص البنوك",
+        "en": "Bank Link"
+        },
+        "description": {
+        "ar": "خاص البنوك",
+        "en": "Bank Link"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص البنوك"
+        },
+        {
+        "id": 13,
+        "link_name": "treasury",
+        "is_multiple": 0,
+        "titles": {
+        "ar": "خاص الخزينة",
+        "en": "Treasury Link"
+        },
+        "description": {
+        "ar": "خاص الخزينة",
+        "en": "Treasury Link"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص الخزينة"
+        },
+        {
+        "id": 14,
+        "link_name": "cashier_expenses",
+        "is_multiple": 0,
+        "titles": {
+        "ar": "خاص مصروفات الكاشير",
+        "en": "Special cashier expenses"
+        },
+        "description": {
+        "ar": "خاص مصروفات الكاشير",
+        "en": "Special cashier expenses"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 0,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص مصروفات الكاشير"
+        },
+        {
+        "id": 15,
+        "link_name": "discount",
+        "is_multiple": 0,
+        "titles": {
+        "ar": "خاص الخصومات",
+        "en": "discount"
+        },
+        "description": {
+        "ar": "خاص الخصومات",
+        "en": "discount"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 1,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص الخصومات"
+        },
+        {
+        "id": 17,
+        "link_name": "purchases_reports",
+        "is_multiple": 1,
+        "titles": {
+        "ar": "خاص تقارير المشتريات",
+        "en": "purchases reports"
+        },
+        "description": {
+        "ar": "خاص تقارير المشتريات",
+        "en": "purchases reports"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 0,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص تقارير المشتريات"
+        },
+        {
+        "id": 18,
+        "link_name": "sales_reports",
+        "is_multiple": 1,
+        "titles": {
+        "ar": "خاص تقارير المبيعات",
+        "en": "sales reports"
+        },
+        "description": {
+        "ar": "خاص تقارير المبيعات",
+        "en": "sales reports"
+        },
+        "data": [
+        ],
+        "allow_deleted": 0,
+        "appears_in_reports": 1,
+        "is_private": 0,
+        "active": 1,
+        "feature_image": {
+        "url": null,
+        "title": null
+        },
+        "feature_video": {
+        "url": null,
+        "title": null
+        },
+        "sort": 5,
+        "slug": null,
+        "created_at": "Jan 1, 1970 3:00 am",
+        "updated_at": null,
+        "text": "خاص تقارير المبيعات"
+        }
+      ],
+    "strings": {
+    "account_link": "رابط الحساب",
+    "account_type": "نوع الحساب",
+    "account": "الحساب",
+    "filter": "تصفية",
+    "reset filter": "اعادة تعيين"
+    }
+    },
+    "strings": null,
+    "info": "from response action",
+    "db": "demo"
+  },
+
+
+
+  "single_account": {
+    "code": 200,
+    "status": true,
+    "message": "تم عرض البيانات بنجاح",
+    "body": {
+    "account_link": {
+    "id": 2,
+    "link_name": "customer",
+    "is_multiple": 0,
+    "titles": {
+    "ar": "خاص العملاء",
+    "en": "customer"
+    },
+    "description": {
+    "ar": "خاص العملاء",
+    "en": "customer"
+    },
+    "data": [
+    ],
+    "allow_deleted": 0,
+    "appears_in_reports": 1,
+    "is_private": 1,
+    "active": 1,
+    "feature_image": {
+    "url": null,
+    "title": null
+    },
+    "feature_video": {
+    "url": null,
+    "title": null
+    },
+    "sort": 2,
+    "slug": null,
+    "created_at": "Jan 1, 1970 3:00 am",
+    "updated_at": null,
+    "text": "خاص العملاء",
+    "account": [
+    {
+    "id": 14,
+    "account": 125,
+    "titles": {
+    "ar": "العملاء",
+    "en": "a"
+    },
+    "text": "العملاء",
+    "pivot": {
+    "account_link_id": 2,
+    "account_id": 14
+    }
+    }
+    ]
+    },
+    "accounts": [
+      {
+      "id": 60,
+      "parent_id": 14,
+      "currency_id": null,
+      "type_id": null,
+      "acc_root": 125,
+      "account": 1251,
+      "level": 4,
+      "is_parent": null,
+      "operands": null,
+      "debit": null,
+      "credit": null,
+      "balance": null,
+      "account_nature": null,
+      "date": null,
+      "allow_deleted": null,
+      "titles": {
+      "ar": "عميل نقدى",
+      "en": "cash customer"
+      },
+      "description": null,
+      "data": null,
+      "active": null,
+      "feature_image": null,
+      "feature_video": null,
+      "account_details": null,
+      "sort": null,
+      "slug": null,
+      "created_at": "Nov 20, 2022 9:32 pm",
+      "updated_at": "2022-11-20T18:32:35.000000Z",
+      "text": "عميل نقدى"
+      },
+      {
+      "id": 64,
+      "parent_id": 14,
+      "currency_id": null,
+      "type_id": null,
+      "acc_root": 125,
+      "account": 1252,
+      "level": 4,
+      "is_parent": null,
+      "operands": null,
+      "debit": null,
+      "credit": null,
+      "balance": null,
+      "account_nature": null,
+      "date": null,
+      "allow_deleted": null,
+      "titles": {
+      "ar": "عميل ١",
+      "en": "عميل ١"
+      },
+      "description": null,
+      "data": null,
+      "active": null,
+      "feature_image": null,
+      "feature_video": null,
+      "account_details": null,
+      "sort": null,
+      "slug": null,
+      "created_at": "Nov 22, 2022 4:57 pm",
+      "updated_at": "2022-11-22T13:57:22.000000Z",
+      "text": "عميل ١"
+      },
+      {
+      "id": 65,
+      "parent_id": 14,
+      "currency_id": null,
+      "type_id": null,
+      "acc_root": 125,
+      "account": 1253,
+      "level": 4,
+      "is_parent": null,
+      "operands": null,
+      "debit": null,
+      "credit": null,
+      "balance": null,
+      "account_nature": null,
+      "date": null,
+      "allow_deleted": null,
+      "titles": {
+      "ar": "ققق",
+      "en": "ققق"
+      },
+      "description": null,
+      "data": null,
+      "active": null,
+      "feature_image": null,
+      "feature_video": null,
+      "account_details": null,
+      "sort": null,
+      "slug": null,
+      "created_at": "Nov 22, 2022 8:50 pm",
+      "updated_at": "2022-11-22T17:50:22.000000Z",
+      "text": "ققق"
+      },
+      {
+      "id": 66,
+      "parent_id": 14,
+      "currency_id": null,
+      "type_id": null,
+      "acc_root": 125,
+      "account": 1254,
+      "level": 4,
+      "is_parent": null,
+      "operands": null,
+      "debit": null,
+      "credit": null,
+      "balance": null,
+      "account_nature": null,
+      "date": null,
+      "allow_deleted": null,
+      "titles": {
+      "ar": "يبسي",
+      "en": "يبسي"
+      },
+      "description": null,
+      "data": null,
+      "active": null,
+      "feature_image": null,
+      "feature_video": null,
+      "account_details": null,
+      "sort": null,
+      "slug": null,
+      "created_at": "Nov 22, 2022 8:51 pm",
+      "updated_at": "2022-11-22T17:51:11.000000Z",
+      "text": "يبسي"
+      }
+    ]
+    },
+    "strings": null,
+    "info": "from response action",
+    "db": "demo"
+  },
+
+
+  "single_account_table" : {
+    "code": 200,
+    "status": true,
+    "message": "تم عرض البيانات بنجاح",
+    "body": {
+      "report": {
+      "balance_previous_period": {
+      "number": 0,
+      "string": " صفر ريال "
+      },
+      "balance_period": {
+      "number": 0,
+      "string": " صفر ريال "
+      },
+      "balance_next_period": {
+      "number": 0,
+      "string": " صفر ريال "
+      },
+      "balance": {
+      "number": 0,
+      "string": " صفر ريال "
+      },
+      "transaction": {
+        "data": [
+            {
+            "id": 1,
+            "account": 1251,
+            "debit": 5,
+            "credit": 0,
+            "balance_debit": 5,
+            "balance_credit": 0,
+            "balance": 5,
+            "reference_id": 1,
+            "show_reference": true,
+            "description": "debit sales amount",
+            "date": "Mon 21 Nov 20:34:30 2022",
+            "created_at": "Mon 21 Nov 20:34:30 2022",
+            "reference": {
+              "items": [
+                {
+                  "item_id": 1,
+                  "quantity": 1,
+                  "serial": "2323",
+                  "title": "dfdfdf",
+                  "title_ar": "dd",
+                  "has_attributes": "false",
+                  "stock": 50,
+                  "product_tax": 5,
+                  "tax_percentage": 10,
+                  "price": 50,
+                  "price_after_tax": 55,
+                  "subtotal": 55,
+                  "total": 55
+                }
+              ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+            }
+            },
+            {
+            "id": 2,
+            "account": 1251,
+            "debit": 0,
+            "credit": 5,
+            "balance_debit": 0,
+            "balance_credit": 0,
+            "balance": 0,
+            "reference_id": 1,
+            "show_reference": true,
+            "description": "credit sales amount",
+            "date": "Mon 21 Nov 20:34:30 2022",
+            "created_at": "Mon 21 Nov 20:34:30 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 1,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 50,
+            "product_tax": 5,
+            "tax_percentage": 10,
+            "price": 50,
+            "price_after_tax": 55,
+            "subtotal": 55,
+            "total": 55
+            }
+            ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+            }
+            },
+            {
+            "id": 5,
+            "account": 1251,
+            "debit": 100,
+            "credit": 0,
+            "balance_debit": 100,
+            "balance_credit": 0,
+            "balance": 100,
+            "reference_id": 2,
+            "show_reference": true,
+            "description": "debit sales amount",
+            "date": "Mon 21 Nov 20:39:34 2022",
+            "created_at": "Mon 21 Nov 20:39:34 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 1,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 49,
+            "product_tax": 50,
+            "tax_percentage": 10,
+            "price": 500,
+            "price_after_tax": 600,
+            "subtotal": 600,
+            "total": 55
+            }
+            ],
+            "total": 100,
+            "subtotal": 0,
+            "paid_amount": 100,
+            "remaining_amount": 0,
+            "total_tax": 100
+            }
+            },
+            {
+            "id": 6,
+            "account": 1251,
+            "debit": 0,
+            "credit": 100,
+            "balance_debit": 0,
+            "balance_credit": 0,
+            "balance": 0,
+            "reference_id": 2,
+            "show_reference": true,
+            "description": "credit sales amount",
+            "date": "Mon 21 Nov 20:39:34 2022",
+            "created_at": "Mon 21 Nov 20:39:34 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 1,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 49,
+            "product_tax": 50,
+            "tax_percentage": 10,
+            "price": 500,
+            "price_after_tax": 600,
+            "subtotal": 600,
+            "total": 55
+            }
+            ],
+            "total": 100,
+            "subtotal": 0,
+            "paid_amount": 100,
+            "remaining_amount": 0,
+            "total_tax": 100
+            }
+            },
+            {
+            "id": 9,
+            "account": 1251,
+            "debit": 70,
+            "credit": 0,
+            "balance_debit": 70,
+            "balance_credit": 0,
+            "balance": 70,
+            "reference_id": 3,
+            "show_reference": true,
+            "description": "debit sales amount",
+            "date": "Mon 21 Nov 20:40:29 2022",
+            "created_at": "Mon 21 Nov 20:40:29 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 14,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 48,
+            "product_tax": 70,
+            "tax_percentage": 10,
+            "price": 50,
+            "price_after_tax": 55,
+            "subtotal": 770,
+            "total": 55
+            }
+            ],
+            "total": 70,
+            "subtotal": 0,
+            "paid_amount": 70,
+            "remaining_amount": 0,
+            "total_tax": 70
+            }
+            },
+            {
+            "id": 10,
+            "account": 1251,
+            "debit": 0,
+            "credit": 70,
+            "balance_debit": 0,
+            "balance_credit": 0,
+            "balance": 0,
+            "reference_id": 3,
+            "show_reference": true,
+            "description": "credit sales amount",
+            "date": "Mon 21 Nov 20:40:29 2022",
+            "created_at": "Mon 21 Nov 20:40:29 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 14,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 48,
+            "product_tax": 70,
+            "tax_percentage": 10,
+            "price": 50,
+            "price_after_tax": 55,
+            "subtotal": 770,
+            "total": 55
+            }
+            ],
+            "total": 70,
+            "subtotal": 0,
+            "paid_amount": 70,
+            "remaining_amount": 0,
+            "total_tax": 70
+            }
+            },
+            {
+            "id": 22,
+            "account": 1251,
+            "debit": 5,
+            "credit": 0,
+            "balance_debit": 5,
+            "balance_credit": 0,
+            "balance": 5,
+            "reference_id": 4,
+            "show_reference": true,
+            "description": "debit sales amount",
+            "date": "Tue 22 Nov 23:31:41 2022",
+            "created_at": "Tue 22 Nov 23:31:41 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 1,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 37,
+            "product_tax": 5,
+            "tax_percentage": 10,
+            "price": 50,
+            "price_after_tax": 55,
+            "subtotal": 55,
+            "total": 55
+            }
+            ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+            }
+            },
+            {
+            "id": 23,
+            "account": 1251,
+            "debit": 0,
+            "credit": 5,
+            "balance_debit": 0,
+            "balance_credit": 0,
+            "balance": 0,
+            "reference_id": 4,
+            "show_reference": true,
+            "description": "credit sales amount",
+            "date": "Tue 22 Nov 23:31:41 2022",
+            "created_at": "Tue 22 Nov 23:31:41 2022",
+            "reference": {
+            "items": [
+            {
+            "item_id": 1,
+            "quantity": 1,
+            "serial": "2323",
+            "title": "dfdfdf",
+            "title_ar": "dd",
+            "has_attributes": "false",
+            "stock": 37,
+            "product_tax": 5,
+            "tax_percentage": 10,
+            "price": 50,
+            "price_after_tax": 55,
+            "subtotal": 55,
+            "total": 55
+            }
+            ],
+            "total": 5,
+            "subtotal": 0,
+            "paid_amount": 5,
+            "remaining_amount": 0,
+            "total_tax": 5
+            }
+            }
+        ]
+      }
+      }
+    },
+    "strings": null,
+    "info": "from response action",
+    "db": "demo"
+    }
+    
+}
